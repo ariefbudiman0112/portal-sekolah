@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+  .btn-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .btn-menu {
+    z-index: 999;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .card-users {
+    height: 280px !important;
+  }
+
+  .login-signup-form {
+    height: 360px;
+  }
+
+  .login-signup-form .form {
+    width: 280px;
+    max-width: 280px;
+    padding: 15px;
+  }
+}
